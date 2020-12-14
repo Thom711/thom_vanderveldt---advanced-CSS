@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,OAAO,CAAC;EACJ,OAAO,EAAE,IAAI;CAChB;;AAED,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,GAAG;CAKb;;AARD,AAKI,KALC,CAKD,YAAY,CAAC;EACT,KAAK,EAAE,IAAI;CACd",
+    "sources": [
+        "level2.scss"
+    ],
+    "names": [],
+    "file": "level2.css"
+}

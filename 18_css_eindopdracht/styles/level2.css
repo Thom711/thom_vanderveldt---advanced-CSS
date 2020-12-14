@@ -1,0 +1,18 @@
+.level2 {
+  display: -ms-grid;
+  display: grid;
+}
+
+.tile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 30%;
+}
+
+.tile .tile__image {
+  width: 30px;
+}
+/*# sourceMappingURL=level2.css.map */

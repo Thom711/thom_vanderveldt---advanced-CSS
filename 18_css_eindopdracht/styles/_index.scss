@@ -1,0 +1,37 @@
+.index {
+    &__header {
+        @include flex-center;
+        font-family: $font;
+        font-size: 1.25em;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+}
+
+ul {
+    @include flex-center;
+    list-style-type: none;
+
+    li {
+        padding: 20px;
+        
+        a {
+            font-family: $font;
+            font-size: 1.25em;
+            color: black;
+            text-decoration: none;
+            transition-duration: 1s;
+
+            &:hover {
+                font-size: 1.5em;
+                color: pink;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 50px;
+    @include flex-center;
+}

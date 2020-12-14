@@ -1,0 +1,56 @@
+.nav {
+    position: fixed;
+    top: 15%;
+    left: 85%;
+    font-family: $font;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        padding: 20px 20px 20px 20px;
+        margin-right: -300px;
+        transition: .5s ease-in-out;
+
+        &:hover {
+            transform: translateX(-200px);
+        }
+    }
+
+    &__blog {
+        background-color: #e17b77;      
+    }
+
+    &__twitter {
+        background-color: #00aced;
+    }
+
+    &__linkedin {
+        background-color: #007bb6;
+    }
+
+    &__facebook {
+        background-color: #3b5998;
+    }
+
+    &__github {
+        background-color: #333;
+    }
+}
+
+.icon {
+    color: white;
+    margin-right: 40px;
+    font-size: 2em;
+}
+
+@media(min-width: 800px) {
+    .nav {
+        left: 90%;
+    }
+}
+
+@media(min-width: 1024px) {
+    .nav {
+        left: 95%;
+    }
+}

@@ -1,0 +1,59 @@
+.level2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    transition-duration: 0.3s;
+}
+
+.tile {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: darkslategray;
+
+        .tile__image {
+            width: 100%;
+            max-height:100%;
+            padding: 0;
+            display: block;
+            border-radius: inherit;
+            transition-duration: 0.3s;
+        }
+
+        .button {
+            position: absolute;
+            top: 50%;
+            opacity: 0;
+            transition-duration: 0.3s;
+            padding: 4px 10px;
+            cursor: pointer;
+        }
+
+        &:hover {
+            & .tile__image {
+                opacity: 0;
+                transform: skew(10deg);
+            }
+
+            & .button {
+                opacity: 1;
+            }
+        }
+}
+
+@media(min-width: 800px) {  
+    .tile {
+        width: 40%;
+        margin: 12px;
+    }
+}
+
+@media(min-width: 1024px) {
+    .tile {
+        width: 30%;
+        margin: 16px;
+    }
+}
